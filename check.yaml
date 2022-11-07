@@ -1,8 +1,8 @@
 /*def secrets = [
         [path: 'secret/dockerhub', engineVersion: 2, secretValues: [
             [envVar: 'username1', vaultKey: 'username'],
-            [envVar: 'password1', vaultKey: 'password']]],
-def configuration = [vaultUrl: 'http://18.208.165.1:8200',  vaultCredentialId: 'newwvol', engineVersion: 2]*/
+            [envVar: 'password1', vaultKey: 'password']]],*/
+//def configuration = [vaultUrl: 'http://18.208.165.1:8200',  vaultCredentialId: 'newwvol', engineVersion: 2]
 withCredentials([string(credentialsId: 'jinkashould be displayrf', variable: 'lokesh')]) {
     // some block
 }
