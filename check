@@ -1,4 +1,3 @@
-/*withCredentials([string(credentialsId:  'jinkashould be displayrf', variable:  'lokesh')]) {
-    // some block}*/
-name:  "${lokesh}"
+
+name:  "lokesh"
 
