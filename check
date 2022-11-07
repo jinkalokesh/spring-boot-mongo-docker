@@ -1,4 +1,4 @@
-withCredentials([string(credentialsId: <jinkashould be displayrf>, variable:  <lokesh>)]) {
+withCredentials([string(credentialsId:  'jinkashould be displayrf', variable:  'lokesh')]) {
     // some block
 name:  "${lokesh}"
 }
